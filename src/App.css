@@ -1,0 +1,57 @@
+a
+{
+  color: #1c68f5
+}
+.App
+{
+  text-align: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container
+{
+  width: 500px; 
+  padding: 15px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 10px;
+}
+.field,
+.button
+{
+  display: flex;
+  flex-direction: column;
+}
+.field label {
+  text-align: left;
+}
+
+.field input[type="text"],
+.field input[type="email"],
+.button button[type="submit"],
+.field input[type="password"]
+{
+  margin: 10px 0;
+  padding: 10px;
+}
+.button button[type="submit"] {
+  background: #1c68f5;
+  color: #fff;
+  border: 1px solid #1c68f5;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+.container,
+.field input[type="text"],
+.field input[type="email"],
+.field input[type="password"]
+{
+  border-radius: 5px;
+  border:1px solid #ccc;
+}
